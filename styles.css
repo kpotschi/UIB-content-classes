@@ -1,0 +1,11 @@
+.red {
+    color: red;
+}
+
+.is-big {
+    font-size: 1.6em;
+}
+
+.is-big ~ .is-big {
+    font-size: 1em;
+}
